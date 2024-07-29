@@ -4,7 +4,7 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <div className="gap-8 hero-bg font-plus-jakarta w-full flex flex-col md:flex-row items-center justify-center p-8 md:p-20 relative">
+    <div className="hero-bg font-plus-jakarta w-full flex flex-col md:flex-row items-center justify-center p-8 md:p-20 relative">
       <div className="relative z-10 w-full md:w-1/2 text-center md:text-left">
         <svg
           width="207"
@@ -38,8 +38,8 @@ export const Hero = () => {
         </svg>
 
         {/* left  */}
-        <div className="w-full flex flex-col items-center md:items-start justify-start space-y-6 md:space-y-12">
-          <div className="w-[100%] flex flex-col items-center md:items-start justify-start gap-y-4">
+        <div className="hero-bg font-plus-jakarta w-full flex flex-col md:flex-row items-center justify-center p-8 md:p-20 relative">
+          <div className="relative z-10 w-full md:w-1/2 text-center md:text-left">
             <div className="text-6xl md:text-8xl font-extrabold">
               More than just pets
             </div>

@@ -4,8 +4,8 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <div className="gap-8 hero-bg font-plus-jakarta w-full flex flex-col md:flex-row items-center justify-center p-8 md:p-20 relative">
-      <div className="relative z-10 w-full md:w-1/2 text-center md:text-left">
+    <div className="hero-bg font-plus-jakarta w-full flex flex-col md:flex-row items-center justify-center p-8 md:p-20 relative">
+      <div className="relative z-10 w-full md:w-1/2 text-center md:text-left gap-8">
         <svg
           width="207"
           height="25"
