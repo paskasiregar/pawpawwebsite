@@ -37,24 +37,22 @@ export const Hero = () => {
           </defs>
         </svg>
 
-        <div className="w-full flex flex-col items-center md:items-start justify-start space-y-6 md:space-y-12">
-          <div className="w-full flex flex-col items-center md:items-start justify-start gap-y-4">
+        <div className="w-full flex flex-col items-start justify-start space-y-12">
+          <div className="w-full flex flex-col items-start justify-start gap-y-4">
             <div className="text-6xl md:text-8xl font-extrabold">
-              More than just pets
+              More than just pets...
             </div>
-            <b className="text-xl md:text-2xl">
+            <b className="self-stretch relative text-2xl">
               Change lives by playing a game!
             </b>
-            <div className="text-sm md:text-md text-gray-500">
+            <div className="self-stretch relative text-md text-gray-500">
               <p>
                 Help stray cats and dogs find homes without spending a dime.
               </p>
               <p>Play our game and let your plays turn into donations!</p>
             </div>
           </div>
-          <div className="flex justify-center md:justify-start">
-            <PrimaryButton>Play Now</PrimaryButton>
-          </div>
+          <PrimaryButton x>Play Now</PrimaryButton>
         </div>
       </div>
 
@@ -156,8 +154,6 @@ export const Hero = () => {
                   d="M10.5 13v1.5q0 .425.288.713t.712.287h1q.425 0 .713-.288t.287-.712V13H15q.425 0 .713-.288T16 12v-1q0-.425-.288-.712T15 10h-1.5V8.5q0-.425-.288-.712T12.5 7.5h-1q-.425 0-.712.288T10.5 8.5V10H9q-.425 0-.712.288T8 11v1q0 .425.288.713T9 13zm1.5 8.9q-.175 0-.325-.025t-.3-.075Q8 20.675 6 17.637T4 11.1V6.375q0-.625.363-1.125t.937-.725l6-2.25q.35-.125.7-.125t.7.125l6 2.25q.575.225.938.725T20 6.375V11.1q0 3.5-2 6.538T12.625 21.8q-.15.05-.3.075T12 21.9m0-2q2.6-.825 4.3-3.3t1.7-5.5V6.375l-6-2.25l-6 2.25V11.1q0 3.025 1.7 5.5t4.3 3.3m0-7.9"
                 />
               </svg>
-
-              {/* Safe Streets */}
               <div className="flex-1 flex flex-col items-start justify-start gap-2">
                 <b className="self-stretch relative">Safe Streets</b>
                 <div className="self-stretch relative text-sm md:text-base leading-snug text-dark-d200">

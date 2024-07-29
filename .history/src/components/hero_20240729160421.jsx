@@ -12,13 +12,14 @@ export const Hero = () => {
           viewBox="0 0 207 25"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className="mx-auto md:mx-0"
         >
           <path
             d="M2 23C2 3.95956 51.1641 -8.73412 51.1641 23C82.0898 -11.1143 205 1.85554 205 23"
             stroke="url(#paint0_linear_545_35742)"
-            stroke-width="3.9685"
-            stroke-miterlimit="10"
-            stroke-linejoin="bevel"
+            strokeWidth="3.9685"
+            strokeMiterlimit="10"
+            strokeLinejoin="bevel"
           />
           <defs>
             <linearGradient
@@ -29,26 +30,24 @@ export const Hero = () => {
               y2="7.59934"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.1927" stop-color="#E8404C" />
-              <stop offset="0.4574" stop-color="#EAACD6" />
-              <stop offset="0.7493" stop-color="#74C39E" />
-              <stop offset="0.8875" stop-color="#F4AA0E" />
+              <stop offset="0.1927" stopColor="#E8404C" />
+              <stop offset="0.4574" stopColor="#EAACD6" />
+              <stop offset="0.7493" stopColor="#74C39E" />
+              <stop offset="0.8875" stopColor="#F4AA0E" />
             </linearGradient>
           </defs>
         </svg>
 
         <div className="w-full flex flex-col items-center md:items-start justify-start space-y-6 md:space-y-12">
           <div className="w-full flex flex-col items-center md:items-start justify-start gap-y-4">
-            <div className="text-6xl md:text-8xl font-extrabold">
-              More than just pets
+            <div className="text-3xl md:text-6xl font-extrabold">
+              More than just pets...
             </div>
             <b className="text-xl md:text-2xl">
               Change lives by playing a game!
             </b>
             <div className="text-sm md:text-md text-gray-500">
-              <p>
-                Help stray cats and dogs find homes without spending a dime.
-              </p>
+              <p>Help stray cats and dogs find homes without spending a dime.</p>
               <p>Play our game and let your plays turn into donations!</p>
             </div>
           </div>
@@ -57,6 +56,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
+    </div>
 
       {/* Happy Homes */}
       <div className="mt-10 flex flex-col items-center md:items-start justify-center z-[2] text-xl w-full px-4 md:px-0">

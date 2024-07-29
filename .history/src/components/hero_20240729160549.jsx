@@ -39,8 +39,8 @@ export const Hero = () => {
 
         <div className="w-full flex flex-col items-center md:items-start justify-start space-y-6 md:space-y-12">
           <div className="w-full flex flex-col items-center md:items-start justify-start gap-y-4">
-            <div className="text-6xl md:text-8xl font-extrabold">
-              More than just pets
+            <div className="text-3xl md:text-6xl font-extrabold">
+              More than just pets...
             </div>
             <b className="text-xl md:text-2xl">
               Change lives by playing a game!

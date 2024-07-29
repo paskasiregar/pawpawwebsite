@@ -4,8 +4,8 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <div className="hero-bg font-plus-jakarta w-full flex flex-col md:flex-row items-center justify-center p-8 md:p-20 relative">
-      <div className="relative z-10 w-full md:w-1/2 text-center md:text-left">
+    <div className="hero-bg font-plus-jakarta w-full min-h-screen flex flex-col items-center justify-center p-8 md:p-20 relative bg-gradient-to-b from-purple-500 to-pink-500">
+      <div className="space-y-8 relative z-10 text-center md:text-left md:w-1/2">
         <svg
           width="207"
           height="25"
@@ -37,30 +37,26 @@ export const Hero = () => {
           </defs>
         </svg>
 
-        <div className="w-full flex flex-col items-center md:items-start justify-start space-y-6 md:space-y-12">
-          <div className="w-full flex flex-col items-center md:items-start justify-start gap-y-4">
-            <div className="text-6xl md:text-8xl font-extrabold">
-              More than just pets
+        <div className="flex-1 flex flex-col items-start justify-start space-y-12">
+          <div className="flex flex-col items-start justify-start gap-y-4">
+            <div className="self-stretch text-6xl md:text-3xl font-extrabold">
+              More than just pets...
             </div>
-            <b className="text-xl md:text-2xl">
+            <b className="self-stretch relative text-2xl">
               Change lives by playing a game!
             </b>
-            <div className="text-sm md:text-md text-gray-500">
+            <div className="self-stretch relative text-md text-gray-500">
               <p>
                 Help stray cats and dogs find homes without spending a dime.
               </p>
               <p>Play our game and let your plays turn into donations!</p>
             </div>
           </div>
-          <div className="flex justify-center md:justify-start">
-            <PrimaryButton>Play Now</PrimaryButton>
-          </div>
+          <PrimaryButton x>Play Now</PrimaryButton>
         </div>
       </div>
-
-      {/* Happy Homes */}
       <div className="mt-10 flex flex-col items-center md:items-start justify-center z-[2] text-xl w-full px-4 md:px-0">
-        <div className="w-full flex flex-col items-start justify-start gap-4 md:gap-6">
+        <div className="w-full max-w-md flex flex-col items-start justify-start gap-4 md:gap-6">
           <div className="w-full flex flex-col items-start justify-start">
             <div className="w-full rounded-xl bg-white flex flex-row items-center justify-start p-5 gap-4 md:gap-6">
               <svg
@@ -102,8 +98,6 @@ export const Hero = () => {
                   d="M9.5 22q-1.475 0-2.488-1.012T6 18.5q0-.225.063-.35t-.013-.2t-.2-.012T5.5 18q-1.475 0-2.488-1.012T2 14.5t1.013-2.488T5.5 11q.575 0 1.05.15t.9.45l4.15-4.15q-.3-.425-.45-.9T11 5.5q0-1.475 1.013-2.488T14.5 2t2.488 1.013T18 5.5q0 .225-.062.35t.012.2t.2.013T18.5 6q1.475 0 2.488 1.013T22 9.5t-1.012 2.488T18.5 13q-.575 0-1.05-.15t-.9-.45l-4.15 4.15q.3.425.45.9T13 18.5q0 1.475-1.012 2.488T9.5 22m0-2q.65 0 1.075-.425T11 18.5q0-.225-.062-.437t-.188-.413q-.425-.6-.35-1.287t.6-1.213L15.15 11q.525-.525 1.213-.6t1.287.35q.2.125.413.188T18.5 11q.65 0 1.075-.425T20 9.5t-.425-1.075T18.5 8q-.875 0-1.225-.088t-.725-.462t-.462-.725T16 5.5q0-.65-.425-1.075T14.5 4t-1.075.425T13 5.5q0 .275.05.463t.2.387q.425.6.35 1.288T13 8.85L8.85 13q-.525.525-1.213.6t-1.287-.35q-.2-.125-.412-.187T5.5 13q-.65 0-1.075.425T4 14.5t.425 1.075T5.5 16q.875 0 1.225.088t.725.462t.462.725T8 18.5q0 .65.425 1.075T9.5 20m2.5-8"
                 />
               </svg>
-
-              {/* Full Tummies */}
               <div className="flex-1 flex flex-col items-start justify-start gap-2">
                 <b className="self-stretch relative">Full Tummies</b>
                 <div className="self-stretch relative text-sm md:text-base leading-snug text-dark-d200">
@@ -132,10 +126,8 @@ export const Hero = () => {
                   <path d="M3.34 11.964H8l3 3l3-6l2 3h4.66" />
                 </g>
               </svg>
-
-              {/* Health and Care */}
               <div className="flex-1 flex flex-col items-start justify-start gap-2">
-                <b className="self-stretch relative">Health and Care</b>
+                <b className="self-stretch relative">Full Tummies</b>
                 <div className="self-stretch relative text-sm md:text-base leading-snug text-dark-d200">
                   Your game plays support medical care and vaccinations for
                   stray animals.
@@ -144,7 +136,7 @@ export const Hero = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-col items-center md:items-end justify-start">
-            <div className="w-full rounded-xl bg-white flex flex-row items-center justify-start p-5 gap-4 md:gap-6">
+            <div className="w-full max-w-md rounded-xl bg-white flex flex-row items-center justify-start p-5 gap-4 md:gap-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="2em"
@@ -156,8 +148,6 @@ export const Hero = () => {
                   d="M10.5 13v1.5q0 .425.288.713t.712.287h1q.425 0 .713-.288t.287-.712V13H15q.425 0 .713-.288T16 12v-1q0-.425-.288-.712T15 10h-1.5V8.5q0-.425-.288-.712T12.5 7.5h-1q-.425 0-.712.288T10.5 8.5V10H9q-.425 0-.712.288T8 11v1q0 .425.288.713T9 13zm1.5 8.9q-.175 0-.325-.025t-.3-.075Q8 20.675 6 17.637T4 11.1V6.375q0-.625.363-1.125t.937-.725l6-2.25q.35-.125.7-.125t.7.125l6 2.25q.575.225.938.725T20 6.375V11.1q0 3.5-2 6.538T12.625 21.8q-.15.05-.3.075T12 21.9m0-2q2.6-.825 4.3-3.3t1.7-5.5V6.375l-6-2.25l-6 2.25V11.1q0 3.025 1.7 5.5t4.3 3.3m0-7.9"
                 />
               </svg>
-
-              {/* Safe Streets */}
               <div className="flex-1 flex flex-col items-start justify-start gap-2">
                 <b className="self-stretch relative">Safe Streets</b>
                 <div className="self-stretch relative text-sm md:text-base leading-snug text-dark-d200">

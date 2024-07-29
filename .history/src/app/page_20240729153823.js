@@ -9,16 +9,16 @@ import SecButton from "@/components/secButton";
 
 export default async function Home() {
   return (
-    <div className="w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between py-4 md:py-8">
-      <section className="space-y-4 w-full px-2 md:px-4">
+    <div className="w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between py-8">
+      <section className="space-y-4 w-full">
         <div className="centeredcontainer main-container">
           <Header />
         </div>
-        <main className="main-container">
+        <main className="main-container px-4 md:px-0">
           <Hero />
           <Divider />
           <div className="self-stretch bg-white flex flex-col md:flex-row">
-            <div className="flex-1 relative h-48 md:h-[489px] z-[0]">
+            <div className="flex-1 relative h-64 md:h-[489px] z-[0]">
               <img
                 className="absolute inset-0 w-full h-full object-cover"
                 alt=""
@@ -26,7 +26,7 @@ export default async function Home() {
               />
             </div>
 
-            <div className="flex-1 flex flex-col items-center md:items-start justify-center gap-4 z-[1] p-4 md:p-8">
+            <div className="flex-1 flex flex-col items-start justify-center gap-4 z-[1] p-4 md:p-8">
               <div className="space-y-4">
                 <div className="flex justify-center md:justify-start">
                   <svg
@@ -66,7 +66,7 @@ export default async function Home() {
                   </svg>
                 </div>
                 <img
-                  className="w-36 h-10 object-cover mx-auto md:mx-0"
+                  className="w-36 relative h-10 object-cover mx-auto md:mx-0"
                   alt=""
                   src="https://i.ibb.co.com/wyKQbSt/banner-10.png"
                 />
@@ -75,8 +75,8 @@ export default async function Home() {
                     How PawPaw Portal Works
                   </div>
                 </div>
-                <div className="self-stretch flex flex-col md:flex-row items-center md:items-start justify-start text-lg md:text-xl text-gray-500">
-                  <div className="flex-1 flex flex-col items-center md:items-start justify-start">
+                <div className="self-stretch flex flex-col md:flex-row items-start justify-start text-lg md:text-xl text-gray-500">
+                  <div className="flex-1 flex flex-col items-start justify-start">
                     <div className="self-stretch">
                       <p className="m-0 text-center md:text-left">
                         Every video you watch on our app can help animals in
