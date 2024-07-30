@@ -9,7 +9,6 @@ import SecButton from "@/components/secButton";
 import Image from "next/image";
 import logoImage from "../assets/inverse.png";
 import bannerImage from "../assets/banner.png";
-import logoHeaderImage from "../assets/banner-10.png";
 
 export default async function Home() {
   return (
@@ -74,7 +73,7 @@ export default async function Home() {
                 <Image
                   className="w-36 h-10 object-cover"
                   alt="Logo"
-                  src={logoHeaderImage}
+                  src={logoImage}
                   width={120}
                   height={20}
                 />

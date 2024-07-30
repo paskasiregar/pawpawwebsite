@@ -12,11 +12,11 @@ export const Footer = () => {
           <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between mb-6">
             <div className="space-y-4">
               <Image
-                className="w-20 h-10 object-cover"
+                className="w-36 h-10 object-cover"
                 alt="Logo"
                 src={logoFooterImage}
-                width={80}
-                height={80}
+                width={120}
+                height={120}
               />
               <div className="space-y-4">
                 <div className="text-white text-3xl font-extrabold">

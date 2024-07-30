@@ -2,7 +2,6 @@ import Link from "next/link";
 import PrimaryButton from "@/components/primaryButton";
 import React from "react";
 import Image from "next/image";
-import logoHeaderImage from "../assets/banner-10.png";
 
 export const Header = () => {
   return (
@@ -13,9 +12,9 @@ export const Header = () => {
             <Image
               className="w-36 h-10 object-cover"
               alt="Logo"
-              src={logoHeaderImage}
-              width={120}
-              height={20}
+              src="https://i.ibb.co.com/wyKQbSt/banner-10.png"
+              width={auto}
+              height={auto}
             />
           </Link>
           <div className="hidden md:flex flex-row items-center justify-center gap-8">

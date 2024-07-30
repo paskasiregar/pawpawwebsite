@@ -74,7 +74,7 @@ export default async function Home() {
                 <Image
                   className="w-36 h-10 object-cover"
                   alt="Logo"
-                  src={logoHeaderImage}
+                  src={logoImage}
                   width={120}
                   height={20}
                 />

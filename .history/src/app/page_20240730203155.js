@@ -9,7 +9,6 @@ import SecButton from "@/components/secButton";
 import Image from "next/image";
 import logoImage from "../assets/inverse.png";
 import bannerImage from "../assets/banner.png";
-import logoHeaderImage from "../assets/banner-10.png";
 
 export default async function Home() {
   return (
@@ -24,8 +23,8 @@ export default async function Home() {
           <div className="self-stretch bg-white flex flex-col md:flex-row">
             <div className="flex-1 relative h-48 md:h-[489px] z-[0]">
               <Image
-                className="w-[80%] h-auto object-cover"
-                alt="banner"
+                className="w-200 h-10 object-cover"
+                alt="Logo"
                 src={bannerImage}
                 width={200}
                 height={200}
@@ -74,7 +73,7 @@ export default async function Home() {
                 <Image
                   className="w-36 h-10 object-cover"
                   alt="Logo"
-                  src={logoHeaderImage}
+                  src={logoImage}
                   width={120}
                   height={20}
                 />

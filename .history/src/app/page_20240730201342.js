@@ -7,9 +7,6 @@ import Hero from "@/components/hero";
 import PrimaryButton from "@/components/primaryButton";
 import SecButton from "@/components/secButton";
 import Image from "next/image";
-import logoImage from "../assets/inverse.png";
-import bannerImage from "../assets/banner.png";
-import logoHeaderImage from "../assets/banner-10.png";
 
 export default async function Home() {
   return (
@@ -24,11 +21,9 @@ export default async function Home() {
           <div className="self-stretch bg-white flex flex-col md:flex-row">
             <div className="flex-1 relative h-48 md:h-[489px] z-[0]">
               <Image
-                className="w-[80%] h-auto object-cover"
-                alt="banner"
-                src={bannerImage}
-                width={200}
-                height={200}
+                className="absolute inset-0 w-full h-full object-cover"
+                alt=""
+                src="https://i.ibb.co.com/5KdzhbM/banner.png"
               />
             </div>
 
@@ -72,11 +67,10 @@ export default async function Home() {
                   </svg>
                 </div>
                 <Image
-                  className="w-36 h-10 object-cover"
-                  alt="Logo"
-                  src={logoHeaderImage}
-                  width={120}
-                  height={20}
+                  className="w-36 h-10 object-cover mx-auto md:mx-0"
+                  alt=""
+                  src="https://i.ibb.co.com/wyKQbSt/banner-10.png"
+                  width={500}
                 />
                 <div className="flex flex-col items-center md:items-start">
                   <div className="relative font-extrabold text-2xl md:text-4xl text-center md:text-left">
