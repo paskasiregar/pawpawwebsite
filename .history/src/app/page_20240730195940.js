@@ -70,7 +70,7 @@ export default async function Home() {
                   className="w-36 h-10 object-cover mx-auto md:mx-0"
                   alt=""
                   src="https://i.ibb.co.com/wyKQbSt/banner-10.png"
-                  width={500}
+                  width={100%}
                 />
                 <div className="flex flex-col items-center md:items-start">
                   <div className="relative font-extrabold text-2xl md:text-4xl text-center md:text-left">

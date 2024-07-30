@@ -67,11 +67,13 @@ export default async function Home() {
                   </svg>
                 </div>
                 <Image
-                  className="w-36 h-10 object-cover mx-auto md:mx-0"
-                  alt=""
                   src="https://i.ibb.co.com/wyKQbSt/banner-10.png"
-                  width={500}
+                  alt="Banner"
+                  width={1200}
+                  height={600}
+                  layout="responsive"
                 />
+
                 <div className="flex flex-col items-center md:items-start">
                   <div className="relative font-extrabold text-2xl md:text-4xl text-center md:text-left">
                     How PawPaw Portal Works

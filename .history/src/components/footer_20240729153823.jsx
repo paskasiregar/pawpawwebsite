@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
 
 export const Footer = () => {
   return (
@@ -10,7 +9,7 @@ export const Footer = () => {
           {/* Footer Header */}
           <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between mb-6">
             <div className="space-y-4">
-              <Image
+              <img
                 className="w-16 h-auto mt-0 mb-0"
                 alt=""
                 src="https://i.ibb.co.com/1GTwZwt/inverse.png"

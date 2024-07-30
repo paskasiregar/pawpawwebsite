@@ -1,7 +1,6 @@
 import Link from "next/link";
 import PrimaryButton from "@/components/primaryButton";
 import React from "react";
-import Image from "next/image";
 
 export const Header = () => {
   return (
@@ -9,7 +8,7 @@ export const Header = () => {
       <div className="self-stretch bg-white flex flex-col items-center justify-center text-sm">
         <div className="w-full header-content p-2.5 box-border">
           <Link href="/">
-            <Image
+            <img
               className="w-36 h-10 object-cover"
               alt="Logo"
               src="https://i.ibb.co.com/wyKQbSt/banner-10.png"
