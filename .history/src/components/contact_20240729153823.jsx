@@ -3,8 +3,6 @@ import PrimaryButton from "@/components/primaryButton";
 import NameInput from "./nameInput";
 import EmailInput from "./emailInput";
 import MessageInput from "./mesageInput";
-import Image from "next/image";
-import logoHeaderImage from "../assets/banner-10.png";
 
 export const Contact = () => {
   return (
@@ -39,12 +37,10 @@ export const Contact = () => {
           </defs>
         </svg>
       </div>
-      <Image
+      <img
         className="w-36 h-10 object-cover"
         alt="Logo"
-        src={logoHeaderImage}
-        width={120}
-        height={20}
+        src="https://i.ibb.co.com/wyKQbSt/banner-10.png"
       />
       <div className="flex justify-center text-4xl font-extrabold space-y-4">
         Contact Us

@@ -3,8 +3,6 @@ import PrimaryButton from "@/components/primaryButton";
 import NameInput from "./nameInput";
 import EmailInput from "./emailInput";
 import MessageInput from "./mesageInput";
-import Image from "next/image";
-import logoHeaderImage from "../assets/banner-10.png";
 
 export const Contact = () => {
   return (
