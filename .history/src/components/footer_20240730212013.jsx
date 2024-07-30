@@ -94,7 +94,7 @@ export const Footer = () => {
                 height="1em"
                 viewBox="0 0 24 24"
               >
-                <g fill="white">
+                <g fill="currentColor">
                   <path d="M1 2h2.5L3.5 2h-2.5z">
                     <animate
                       fill="freeze"
