@@ -22,7 +22,7 @@ export default async function Home() {
           <Hero />
           <Divider />
           <div className="self-stretch bg-white flex flex-col md:flex-row">
-            <div className="flex-1 relative h-48 md:h-[489px] z-[0] flex items-center justify-center">
+            <div className="flex-1 relative h-48 md:h-[489px] z-[0]">
               <Image
                 className="w-[80%] h-auto object-cover"
                 alt="banner"
@@ -71,7 +71,7 @@ export default async function Home() {
                     </defs>
                   </svg>
                 </div>
-                <div className="hidden md:flex items-center justify-center">
+                <div>
                   <Image
                     className="w-36 h-10 object-cover"
                     alt="Logo"
@@ -79,24 +79,24 @@ export default async function Home() {
                     width={120}
                     height={20}
                   />
-                </div>
-                <div className="flex flex-col items-center md:items-start">
-                  <div className="relative font-extrabold text-2xl md:text-4xl text-center md:text-left">
-                    How PawPaw Portal Works
+                  <div className="flex flex-col items-center md:items-start">
+                    <div className="relative font-extrabold text-2xl md:text-4xl text-center md:text-left">
+                      How PawPaw Portal Works
+                    </div>
                   </div>
-                </div>
-                <div className="self-stretch flex flex-col md:flex-row items-center md:items-start justify-start text-lg md:text-xl text-gray-500">
-                  <div className="flex-1 flex flex-col items-center md:items-start justify-start">
-                    <div className="self-stretch">
-                      <p className="m-0 text-center md:text-left">
-                        Every video you watch on our app can help animals in
-                        need. Fun, isn&apos;t it?
-                      </p>
-                      <p className="m-2"></p>
-                      <p className="m-0 text-center md:text-left">
-                        Join us at PawPaw Portal, where animal lovers and
-                        shelters meet. Let&apos;s make a difference together!
-                      </p>
+                  <div className="self-stretch flex flex-col md:flex-row items-center md:items-start justify-start text-lg md:text-xl text-gray-500">
+                    <div className="flex-1 flex flex-col items-center md:items-start justify-start">
+                      <div className="self-stretch">
+                        <p className="m-0 text-center md:text-left">
+                          Every video you watch on our app can help animals in
+                          need. Fun, isn&apos;t it?
+                        </p>
+                        <p className="m-2"></p>
+                        <p className="m-0 text-center md:text-left">
+                          Join us at PawPaw Portal, where animal lovers and
+                          shelters meet. Let&apos;s make a difference together!
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
