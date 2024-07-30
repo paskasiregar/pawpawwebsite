@@ -1,7 +1,7 @@
-import "../styles/globals.css";
+import "../styles/globals.css"; // Import your global CSS
 import Head from "next/head";
 
-function MyApp({ Component, pageProps }) {
+function v4_pawpawwebsite({ Component, pageProps }) {
   return (
     <>
       <Head>
@@ -13,4 +13,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default v4_pawpawwebsite;

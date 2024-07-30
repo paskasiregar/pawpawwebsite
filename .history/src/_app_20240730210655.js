@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "../styles/globals.css"; // Import your global CSS
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>PawPaw Portal | Your One Stop Shelter</title>
-        <link rel="icon" href="/inverse.png" />
+        <link rel="icon" href="../assets/inverse.png" />
       </Head>
       <Component {...pageProps} />
     </>
