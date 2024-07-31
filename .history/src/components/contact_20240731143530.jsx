@@ -73,7 +73,9 @@ export const Contact = () => {
             <label
               htmlFor="message"
               className="block text-sm font-medium text-gray-700"
-            ></label>
+            >
+              Message
+            </label>
             <MessageInput className="w-full" id="message" name="message" />
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import PrimaryButton from "@/components/primaryButton";
 import NameInput from "./nameInput";
 import EmailInput from "./emailInput";
-import MessageInput from "./mesageInput";
+import MessageInput from "./messageInput";
 import Image from "next/image";
 import logoHeaderImage from "../assets/banner-10.png";
 
@@ -47,25 +47,25 @@ export const Contact = () => {
         height={20}
       />
       <div className="text-4xl font-extrabold">Contact Us</div>
-      <form
-        action="https://submit-form.com/E0a8H8KS4"
-        method="POST"
-        className="w-full"
-      >
+      <form action="https://submit-form.com/E0a8H8KS4" method="POST">
         <div className="w-full flex flex-col items-start gap-[16px] text-base text-light-l800 font-regular-reg-2">
           <div className="w-full flex flex-col md:flex-row gap-[20px]">
             <div className="w-full md:w-1/2">
               <label
                 htmlFor="name"
                 className="block text-sm font-medium text-gray-700"
-              ></label>
+              >
+                Name
+              </label>
               <NameInput className="w-full" id="name" name="name" />
             </div>
             <div className="w-full md:w-1/2">
               <label
                 htmlFor="email"
                 className="block text-sm font-medium text-gray-700"
-              ></label>
+              >
+                Email
+              </label>
               <EmailInput className="w-full" id="email" name="email" />
             </div>
           </div>
@@ -73,7 +73,9 @@ export const Contact = () => {
             <label
               htmlFor="message"
               className="block text-sm font-medium text-gray-700"
-            ></label>
+            >
+              Message
+            </label>
             <MessageInput className="w-full" id="message" name="message" />
           </div>
         </div>

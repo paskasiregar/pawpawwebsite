@@ -58,14 +58,18 @@ export const Contact = () => {
               <label
                 htmlFor="name"
                 className="block text-sm font-medium text-gray-700"
-              ></label>
+              >
+                Name
+              </label>
               <NameInput className="w-full" id="name" name="name" />
             </div>
             <div className="w-full md:w-1/2">
               <label
                 htmlFor="email"
                 className="block text-sm font-medium text-gray-700"
-              ></label>
+              >
+                Email
+              </label>
               <EmailInput className="w-full" id="email" name="email" />
             </div>
           </div>
@@ -73,7 +77,9 @@ export const Contact = () => {
             <label
               htmlFor="message"
               className="block text-sm font-medium text-gray-700"
-            ></label>
+            >
+              Message
+            </label>
             <MessageInput className="w-full" id="message" name="message" />
           </div>
         </div>

@@ -11,7 +11,7 @@ export const Contact = () => {
     <div className="font-plus-jakarta flex flex-col items-center justify-center py-16 px-4 md:px-[200px] gap-[40px] text-29xl">
       <div className="flex justify-start items-start">
         <svg
-          width="1620"
+          width="w-auto"
           height="188"
           viewBox="0 0 1620 188"
           fill="none"
@@ -20,9 +20,9 @@ export const Contact = () => {
           <path
             d="M1891 188C1891 100.375 1784.67 29.342 1653.5 29.342C1522.34 29.342 1413.53 100.375 1413.53 188C1413.53 122.37 1317.84 69.158 1199.78 69.158C1081.72 69.158 986.029 122.362 986.029 188C986.029 85.8274 930.825 3 862.735 3C794.645 3 737.369 85.8274 737.369 188C737.369 108.853 646.33 44.6865 534.029 44.6865C421.728 44.6865 330.689 108.853 330.689 188C330.689 134.381 239.649 90.9105 127.349 90.9105C15.0481 90.9105 -76 134.381 -76 188"
             stroke="url(#paint0_linear_545_35799)"
-            strokeWidth="6"
-            strokeMiterlimit="10"
-            strokeLinejoin="bevel"
+            stroke-width="12"
+            stroke-miterlimit="10"
+            stroke-linejoin="bevel"
           />
           <defs>
             <linearGradient
@@ -33,8 +33,8 @@ export const Contact = () => {
               y2="91.1699"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.0224" stopColor="#EBADD7" />
-              <stop offset="1" stopColor="#FF2445" />
+              <stop offset="0.0224" stop-color="#EBADD7" />
+              <stop offset="1" stop-color="#FF2445" />
             </linearGradient>
           </defs>
         </svg>
@@ -46,41 +46,25 @@ export const Contact = () => {
         width={120}
         height={20}
       />
-      <div className="text-4xl font-extrabold">Contact Us</div>
-      <form
-        action="https://submit-form.com/E0a8H8KS4"
-        method="POST"
-        className="w-full"
-      >
+      <div className="flex justify-center text-4xl font-extrabold space-y-4">
+        Contact Us
+      </div>
+      <form action="https://submit-form.com/E0a8H8KS4" className="w-full">
         <div className="w-full flex flex-col items-start gap-[16px] text-base text-light-l800 font-regular-reg-2">
           <div className="w-full flex flex-col md:flex-row gap-[20px]">
             <div className="w-full md:w-1/2">
-              <label
-                htmlFor="name"
-                className="block text-sm font-medium text-gray-700"
-              ></label>
-              <NameInput className="w-full" id="name" name="name" />
+              <NameInput className="w-full" />
             </div>
             <div className="w-full md:w-1/2">
-              <label
-                htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
-              ></label>
-              <EmailInput className="w-full" id="email" name="email" />
+              <EmailInput className="w-full" />
             </div>
           </div>
           <div className="w-full">
-            <label
-              htmlFor="message"
-              className="block text-sm font-medium text-gray-700"
-            ></label>
-            <MessageInput className="w-full" id="message" name="message" />
+            <MessageInput className="w-full" />
           </div>
         </div>
-        <div className="mt-4">
-          <PrimaryButton type="submit">Send Now</PrimaryButton>
-        </div>
       </form>
+      <PrimaryButton>Send Now</PrimaryButton>
     </div>
   );
 };
