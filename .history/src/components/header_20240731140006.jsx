@@ -22,9 +22,7 @@ export const Header = () => {
             <div>
               <Link href="#how-it-works">How It Works</Link>
             </div>
-            <div>
-              <Link href="#about-us">About Us</Link>
-            </div>
+            <div className="relative">About Us</div>
           </div>
           <div className="header-logo-button">
             <PrimaryButton>Be Our Hero Today!</PrimaryButton>

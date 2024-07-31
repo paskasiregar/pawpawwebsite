@@ -32,10 +32,7 @@ export default async function Home() {
               />
             </div>
 
-            <div
-              id="how-it-works"
-              className="flex-1 flex flex-col items-center md:items-start justify-center gap-4 z-[1] p-4 md:p-8"
-            >
+            <div className="flex-1 flex flex-col items-center md:items-start justify-center gap-4 z-[1] p-4 md:p-8">
               <div className="space-y-4">
                 <div className="flex justify-center md:justify-start">
                   <svg
@@ -84,7 +81,10 @@ export default async function Home() {
                   />
                 </div>
                 <div className="flex flex-col items-center md:items-start">
-                  <div className="relative font-extrabold text-2xl md:text-4xl text-center md:text-left">
+                  <div
+                    id="how-it-works"
+                    className="relative font-extrabold text-2xl md:text-4xl text-center md:text-left"
+                  >
                     How PawPaw Portal Works
                   </div>
                 </div>
@@ -118,9 +118,7 @@ export default async function Home() {
           <div>
             <CTA />
           </div>
-          <div id="about-us">
-            <Footer />
-          </div>
+          <Footer />
         </div>
       </section>
     </div>

@@ -13,7 +13,7 @@ import logoHeaderImage from "../assets/banner-10.png";
 
 export default async function Home() {
   return (
-    <div className="w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between py-4 md:py-8">
+    <div className="w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between">
       <section className="space-y-4 w-full px-2 md:px-4">
         <div className="centeredcontainer main-container">
           <Header />

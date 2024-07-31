@@ -118,9 +118,7 @@ export default async function Home() {
           <div>
             <CTA />
           </div>
-          <div id="about-us">
-            <Footer />
-          </div>
+          <Footer />
         </div>
       </section>
     </div>

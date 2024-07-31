@@ -19,12 +19,13 @@ export const Header = () => {
             />
           </Link>
           <div className="hidden md:flex flex-row items-center justify-center gap-8">
-            <div>
-              <Link href="#how-it-works">How It Works</Link>
+            <div
+              id="how-it-works"
+              className="relative font-extrabold text-2xl md:text-4xl text-center md:text-left"
+            >
+              How It Works
             </div>
-            <div>
-              <Link href="#about-us">About Us</Link>
-            </div>
+            <div className="relative">About Us</div>
           </div>
           <div className="header-logo-button">
             <PrimaryButton>Be Our Hero Today!</PrimaryButton>

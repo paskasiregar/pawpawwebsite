@@ -108,7 +108,3 @@ body {
   align-items: center;
   gap: 16px; /* Adjust spacing as needed */
 }
-
-html {
-  scroll-behavior: smooth;
-}
