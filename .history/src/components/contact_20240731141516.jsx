@@ -11,7 +11,7 @@ export const Contact = () => {
     <div className="font-plus-jakarta flex flex-col items-center justify-center py-16 px-4 md:px-[200px] gap-[40px] text-29xl">
       <div className="flex justify-start items-start">
         <svg
-          width="w-auto"
+          width="-full"
           height="188"
           viewBox="0 0 1620 188"
           fill="none"
@@ -20,7 +20,7 @@ export const Contact = () => {
           <path
             d="M1891 188C1891 100.375 1784.67 29.342 1653.5 29.342C1522.34 29.342 1413.53 100.375 1413.53 188C1413.53 122.37 1317.84 69.158 1199.78 69.158C1081.72 69.158 986.029 122.362 986.029 188C986.029 85.8274 930.825 3 862.735 3C794.645 3 737.369 85.8274 737.369 188C737.369 108.853 646.33 44.6865 534.029 44.6865C421.728 44.6865 330.689 108.853 330.689 188C330.689 134.381 239.649 90.9105 127.349 90.9105C15.0481 90.9105 -76 134.381 -76 188"
             stroke="url(#paint0_linear_545_35799)"
-            stroke-width="12"
+            stroke-width="6"
             stroke-miterlimit="10"
             stroke-linejoin="bevel"
           />
