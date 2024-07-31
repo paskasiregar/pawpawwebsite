@@ -47,11 +47,7 @@ export const Contact = () => {
         height={20}
       />
       <div className="text-4xl font-extrabold  w-full">Contact Us</div>
-      <form
-        action="https://formspree.io/f/xwpeooor"
-        method="POST"
-        className="w-full"
-      >
+      <form action="https://formspree.io/f/xwpeooor" method="POST">
         <div className="w-full flex flex-col items-start gap-[16px] text-base text-light-l800 font-regular-reg-2">
           <div className="w-full flex flex-col md:flex-row gap-[20px]">
             <div className="w-full md:w-1/2">
