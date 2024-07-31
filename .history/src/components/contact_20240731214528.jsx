@@ -46,40 +46,48 @@ export const Contact = () => {
         width={120}
         height={20}
       />
-      <div className="text-4xl font-extrabold w-full">Contact Us</div>
+      <div className="text-4xl font-extrabold  w-full">Contact Us</div>
       <form
-        action="https://forms.office.com/Pages/ResponsePage.aspx?id=FYBQO9x7eUe5JQ3XgE-7JgfHRnXS951Jum6QCf1rDZlUOTFYM1gyVUNMUzAyRTlFRVlHNUo5UVVRSy4u"
-        method="post"
-        target="_blank"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSe6LShrPVKh-LHDKOas-AzL__AQOai2xqzqOClVCFVoLnht3g/formResponse"
+        method="POST"
         className="w-full"
       >
         <div className="w-full flex flex-col items-start gap-[16px] text-base text-light-l800 font-regular-reg-2">
           <div className="w-full flex flex-col md:flex-row gap-[20px]">
             <div className="w-full md:w-1/2">
               <label
-                htmlFor="name"
+                htmlFor="entry.your_name_field"
                 className="w-full block text-sm font-medium text-gray-700"
               ></label>
-              <NameInput className="w-full" id="name" name="name" required />
+              <NameInput
+                className="w-full"
+                id="entry.your_name_field"
+                name="entry.your_name_field"
+                type="text"
+              />
             </div>
             <div className="w-full md:w-1/2">
               <label
-                htmlFor="email"
+                htmlFor="entry.your_email_field"
                 className="block text-sm font-medium text-gray-700"
               ></label>
-              <EmailInput className="w-full" id="email" name="email" required />
+              <EmailInput
+                className="w-full"
+                id="entry.your_email_field"
+                name="entry.your_email_field"
+                type="email"
+              />
             </div>
           </div>
           <div className="w-full">
             <label
-              htmlFor="message"
+              htmlFor="entry.your_message_field"
               className="block text-sm font-medium text-gray-700"
             ></label>
             <MessageInput
               className="w-full"
-              id="message"
-              name="message"
-              required
+              id="entry.your_message_field"
+              name="entry.your_message_field"
             />
           </div>
         </div>

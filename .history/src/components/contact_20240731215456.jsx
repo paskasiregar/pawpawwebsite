@@ -51,7 +51,6 @@ export const Contact = () => {
         action="https://forms.office.com/Pages/ResponsePage.aspx?id=FYBQO9x7eUe5JQ3XgE-7JgfHRnXS951Jum6QCf1rDZlUOTFYM1gyVUNMUzAyRTlFRVlHNUo5UVVRSy4u"
         method="post"
         target="_blank"
-        className="w-full"
       >
         <div className="w-full flex flex-col items-start gap-[16px] text-base text-light-l800 font-regular-reg-2">
           <div className="w-full flex flex-col md:flex-row gap-[20px]">
@@ -59,14 +58,18 @@ export const Contact = () => {
               <label
                 htmlFor="name"
                 className="w-full block text-sm font-medium text-gray-700"
-              ></label>
+              >
+                Name
+              </label>
               <NameInput className="w-full" id="name" name="name" required />
             </div>
             <div className="w-full md:w-1/2">
               <label
                 htmlFor="email"
                 className="block text-sm font-medium text-gray-700"
-              ></label>
+              >
+                Email
+              </label>
               <EmailInput className="w-full" id="email" name="email" required />
             </div>
           </div>
@@ -74,7 +77,9 @@ export const Contact = () => {
             <label
               htmlFor="message"
               className="block text-sm font-medium text-gray-700"
-            ></label>
+            >
+              Message
+            </label>
             <MessageInput
               className="w-full"
               id="message"
