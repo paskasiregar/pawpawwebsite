@@ -14,8 +14,8 @@ import Link from "next/link";
 
 export default async function Home() {
   return (
-    <div className="w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between">
-      <section className="w-full">
+    <div className="w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between md:py-8">
+      <section className="space-y-4 w-full px-2 md:px-4">
         <div className="centeredcontainer main-container">
           <Header />
         </div>
