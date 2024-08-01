@@ -39,27 +39,27 @@ export const Hero = () => {
           </defs>
         </svg>
 
-        {/* left  */}
-        <div className="w-full flex flex-col items-center md:items-start justify-start space-y-6 md:space-y-12">
-          <div className="w-full flex flex-col items-center md:items-start justify-start gap-y-4">
-            <div className="text-6xl md:text-8xl font-extrabold">
-              More than just pets
-            </div>
-            <b className="text-xl md:text-2xl">
-              Change lives by playing a game!
-            </b>
-            <div className="text-sm md:text-md text-gray-500">
-              <p>
-                Help stray cats and dogs find homes without spending a dime.
-              </p>
-              <p>Play our game and let your plays turn into donations!</p>
-            </div>
-          </div>
-          <div className="flex justify-center md:justify-start w-full">
-            <PrimaryButton className="w-full">Play Now</PrimaryButton>
-          </div>
-        </div>
-      </div>
+       {/* left  */}
+<div className="w-full flex flex-col items-center md:items-start justify-start space-y-6 md:space-y-12">
+  <div className="w-full flex flex-col items-center md:items-start justify-start gap-y-4">
+    <div className="text-6xl md:text-8xl font-extrabold">
+      More than just pets
+    </div>
+    <b className="text-xl md:text-2xl">
+      Change lives by playing a game!
+    </b>
+    <div className="text-sm md:text-md text-gray-500">
+      <p>
+        Help stray cats and dogs find homes without spending a dime.
+      </p>
+      <p>Play our game and let your plays turn into donations!</p>
+    </div>
+  </div>
+  <div className="flex justify-center md:justify-start w-full">
+    <PrimaryButton className="w-full">Play Now</PrimaryButton>
+  </div>
+</div>
+
 
       <div>
         {/* content */}

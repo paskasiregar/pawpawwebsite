@@ -56,7 +56,7 @@ export const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center md:justify-start w-full">
-            <PrimaryButton className="w-full">Play Now</PrimaryButton>
+            <PrimaryButton>Play Now</PrimaryButton>
           </div>
         </div>
       </div>

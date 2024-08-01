@@ -41,7 +41,7 @@ export const Hero = () => {
 
         {/* left  */}
         <div className="w-full flex flex-col items-center md:items-start justify-start space-y-6 md:space-y-12">
-          <div className="w-full flex flex-col items-center md:items-start justify-start gap-y-4">
+          <div className="w-[100%] flex flex-col items-center md:items-start justify-start gap-y-4">
             <div className="text-6xl md:text-8xl font-extrabold">
               More than just pets
             </div>
@@ -56,7 +56,9 @@ export const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center md:justify-start w-full">
-            <PrimaryButton className="w-full">Play Now</PrimaryButton>
+            <div>
+              <PrimaryButton>Play Now</PrimaryButton>
+            </div>
           </div>
         </div>
       </div>
