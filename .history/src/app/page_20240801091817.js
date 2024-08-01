@@ -10,7 +10,6 @@ import Image from "next/image";
 import logoImage from "../assets/inverse.png";
 import bannerImage from "../assets/banner.png";
 import logoHeaderImage from "../assets/banner-10.png";
-import Link from "next/link";
 
 export default async function Home() {
   return (
