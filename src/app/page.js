@@ -106,7 +106,7 @@ export default async function Home() {
                 </div>
 
                 <div className="flex flex-col md:flex-row gap-2">
-                  <PrimaryButton>Play Now</PrimaryButton>
+                  <PrimaryButton href="https://game.pawpawportal.com">Play Now</PrimaryButton>
                   <Link
                     href="#about-us"
                     className="flex flex-col md:flex-row gap-2"
