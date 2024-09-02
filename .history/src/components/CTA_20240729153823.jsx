@@ -33,7 +33,7 @@ const CTA = () => {
           </linearGradient>
         </defs>
       </svg>
-      <Link href="https://game.pawpawportal.com">
+      <Link href="/game">
         <div className="cta-button text-center bg-gradient-to-r from-orange-500 to-pink-500 text-white font-bold py-2 px-4 rounded-lg shadow-lg cursor-pointer">
           Play Our Game Now
         </div>
