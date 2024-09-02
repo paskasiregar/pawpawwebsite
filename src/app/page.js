@@ -11,10 +11,18 @@ import logoImage from "../assets/inverse.png";
 import bannerImage from "../assets/banner.png";
 import logoHeaderImage from "../assets/banner-10.png";
 import Link from "next/link";
+import Head from "next/head";
 
 export default async function Home() {
   return (
     <div className="w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between">
+      <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4770655134097556"
+          crossorigin="anonymous"
+        ></script>
+      </Head>
       <section className="w-full">
         <div className="centeredcontainer main-container">
           <Header />
@@ -106,7 +114,9 @@ export default async function Home() {
                 </div>
 
                 <div className="flex flex-col md:flex-row gap-2">
-                  <PrimaryButton href="https://game.pawpawportal.com">Play Now</PrimaryButton>
+                  <PrimaryButton href="https://game.pawpawportal.com">
+                    Play Now
+                  </PrimaryButton>
                   <Link
                     href="#about-us"
                     className="flex flex-col md:flex-row gap-2"

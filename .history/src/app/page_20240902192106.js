@@ -9,11 +9,21 @@ import SecButton from "@/components/secButton";
 import Image from "next/image";
 import logoImage from "../assets/inverse.png";
 import bannerImage from "../assets/banner.png";
+import logoHeaderImage from "../assets/banner-10.png";
+import Link from "next/link";
+import Head from "next/head";
 
 export default async function Home() {
   return (
-    <div className="w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between py-4 md:py-8">
-      <section className="space-y-4 w-full px-2 md:px-4">
+    <div className="w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between">
+      <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4770655134097556"
+          crossorigin="anonymous"
+        ></script>
+      </Head>
+      <section className="w-full">
         <div className="centeredcontainer main-container">
           <Header />
         </div>
@@ -21,17 +31,20 @@ export default async function Home() {
           <Hero />
           <Divider />
           <div className="self-stretch bg-white flex flex-col md:flex-row">
-            <div className="flex-1 relative h-48 md:h-[489px] z-[0]">
+            <div className="flex-1 relative h-48 md:h-[489px] z-[0] flex items-center justify-center">
               <Image
-                className="w-36 h-10 object-cover"
-                alt="Logo"
+                className="w-[80%] h-auto object-cover"
+                alt="banner"
                 src={bannerImage}
-                width={120}
-                height={20}
+                width={200}
+                height={200}
               />
             </div>
 
-            <div className="flex-1 flex flex-col items-center md:items-start justify-center gap-4 z-[1] p-4 md:p-8">
+            <div
+              id="how-it-works"
+              className="flex-1 flex flex-col items-center md:items-start justify-center gap-4 z-[1] p-4 md:p-8"
+            >
               <div className="space-y-4">
                 <div className="flex justify-center md:justify-start">
                   <svg
@@ -70,13 +83,15 @@ export default async function Home() {
                     </defs>
                   </svg>
                 </div>
-                <Image
-                  className="w-36 h-10 object-cover"
-                  alt="Logo"
-                  src={logoImage}
-                  width={120}
-                  height={20}
-                />
+                <div className="hidden md:flex items-center justify-center">
+                  <Image
+                    className="w-36 h-10 object-cover"
+                    alt="Logo"
+                    src={logoHeaderImage}
+                    width={120}
+                    height={20}
+                  />
+                </div>
                 <div className="flex flex-col items-center md:items-start">
                   <div className="relative font-extrabold text-2xl md:text-4xl text-center md:text-left">
                     How PawPaw Portal Works
@@ -87,20 +102,27 @@ export default async function Home() {
                     <div className="self-stretch">
                       <p className="m-0 text-center md:text-left">
                         Every video you watch on our app can help animals in
-                        need. Fun, isn't it?
+                        need. Fun, isn&apos;t it?
                       </p>
                       <p className="m-2"></p>
                       <p className="m-0 text-center md:text-left">
                         Join us at PawPaw Portal, where animal lovers and
-                        shelters meet. Let's make a difference together!
+                        shelters meet. Let&apos;s make a difference together!
                       </p>
                     </div>
                   </div>
                 </div>
 
                 <div className="flex flex-col md:flex-row gap-2">
-                  <PrimaryButton>Play Now</PrimaryButton>
-                  <SecButton>About Us</SecButton>
+                  <PrimaryButton href="https://game.pawpawportal.com">
+                    Play Now
+                  </PrimaryButton>
+                  <Link
+                    href="#about-us"
+                    className="flex flex-col md:flex-row gap-2"
+                  >
+                    <SecButton>About Us</SecButton>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -112,7 +134,9 @@ export default async function Home() {
           <div>
             <CTA />
           </div>
-          <Footer />
+          <div id="about-us">
+            <Footer />
+          </div>
         </div>
       </section>
     </div>
