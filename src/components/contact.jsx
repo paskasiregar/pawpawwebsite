@@ -46,7 +46,9 @@ export const Contact = () => {
         width={120}
         height={20}
       />
-      <div className="text-4xl font-extrabold w-full">Contact Us</div>
+      <div className="text-4xl font-extrabold w-full text-center">
+        Contact Us
+      </div>
       <form
         action="https://forms.office.com/Pages/ResponsePage.aspx?id=FYBQO9x7eUe5JQ3XgE-7JgfHRnXS951Jum6QCf1rDZlUOTFYM1gyVUNMUzAyRTlFRVlHNUo5UVVRSy4u"
         method="post"
@@ -59,14 +61,18 @@ export const Contact = () => {
               <label
                 htmlFor="name"
                 className="w-full block text-sm font-medium text-gray-700"
-              ></label>
+              >
+                Name
+              </label>
               <NameInput className="w-full" id="name" name="name" required />
             </div>
             <div className="w-full md:w-1/2">
               <label
                 htmlFor="email"
                 className="block text-sm font-medium text-gray-700"
-              ></label>
+              >
+                Email
+              </label>
               <EmailInput className="w-full" id="email" name="email" required />
             </div>
           </div>
@@ -74,7 +80,9 @@ export const Contact = () => {
             <label
               htmlFor="message"
               className="block text-sm font-medium text-gray-700"
-            ></label>
+            >
+              Message
+            </label>
             <MessageInput
               className="w-full"
               id="message"

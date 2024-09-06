@@ -46,20 +46,13 @@ export const Contact = () => {
         width={120}
         height={20}
       />
-      <div className="text-4xl font-extrabold  w-full">Contact Us</div>
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSe6LShrPVKh-LHDKOas-AzL__AQOai2xqzqOClVCFVoLnht3g/viewform?embedded=true"
-        width="640"
-        height="689"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >
-        Loading…
-      </iframe>
-      {/* <form
-        action="https://formspree.io/f/xwpeooor"
-        method="POST"
+      <div className="text-4xl font-extrabold w-full text-center">
+        Contact Us
+      </div>
+      <form
+        action="https://forms.office.com/Pages/ResponsePage.aspx?id=FYBQO9x7eUe5JQ3XgE-7JgfHRnXS951Jum6QCf1rDZlUOTFYM1gyVUNMUzAyRTlFRVlHNUo5UVVRSy4u"
+        method="post"
+        target="_blank"
         className="w-full"
       >
         <div className="w-full flex flex-col items-start gap-[16px] text-base text-light-l800 font-regular-reg-2">
@@ -68,34 +61,40 @@ export const Contact = () => {
               <label
                 htmlFor="name"
                 className="w-full block text-sm font-medium text-gray-700"
-              ></label>
-              <NameInput className="w-full" id="name" name="name" type="text" />
+              >
+                Name
+              </label>
+              <NameInput className="w-full" id="name" name="name" required />
             </div>
             <div className="w-full md:w-1/2">
               <label
                 htmlFor="email"
                 className="block text-sm font-medium text-gray-700"
-              ></label>
-              <EmailInput
-                className="w-full"
-                id="email"
-                name="email"
-                type="email"
-              />
+              >
+                Email
+              </label>
+              <EmailInput className="w-full" id="email" name="email" required />
             </div>
           </div>
           <div className="w-full">
             <label
               htmlFor="message"
               className="block text-sm font-medium text-gray-700"
-            ></label>
-            <MessageInput className="w-full" id="message" name="message" />
+            >
+              Message
+            </label>
+            <MessageInput
+              className="w-full"
+              id="message"
+              name="message"
+              required
+            />
           </div>
         </div>
         <div className="mt-4">
           <PrimaryButton type="submit">Send Now</PrimaryButton>
         </div>
-      </form> */}
+      </form>
     </div>
   );
 };
