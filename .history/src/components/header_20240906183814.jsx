@@ -6,10 +6,12 @@ import logoHeaderImage from "../assets/banner-10.png";
 
 export const Header = () => {
   return (
-    <div className="font-plus-jakarta w-full fixed top-0 z-50 bg-white shadow-md text-left text-gray-500">
+    <div className="font-plus-jakarta w-full flex flex-col items-center justify-center text-left text-gray-500">
       <div className="self-stretch bg-white flex flex-col items-center justify-center text-sm">
         <div className="w-full header-content p-2.5 box-border">
           <Link href="/">
+            {" "}
+            {/* Homepage */}
             <Image
               className="w-36 h-10 object-cover"
               alt="Logo"
