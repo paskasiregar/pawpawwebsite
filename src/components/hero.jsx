@@ -56,7 +56,14 @@ export const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center md:justify-start w-full">
-            <PrimaryButton className="w-full" href="https://game.pawpawportal.com">Play Now</PrimaryButton>
+            <Link href="https://game.pawpawportal.com">
+              <PrimaryButton
+                className="w-full"
+                href="https://game.pawpawportal.com"
+              >
+                Play Now
+              </PrimaryButton>
+            </Link>
           </div>
         </div>
       </div>

@@ -135,7 +135,7 @@ export default async function Home() {
                     </PrimaryButton>
                   </Link>
                   <Link
-                    href="#team"
+                    href="#about-us"
                     className="flex flex-col md:flex-row gap-2"
                   >
                     <SecButton>About Us</SecButton>
@@ -148,7 +148,7 @@ export default async function Home() {
           {/* Team */}
           <Divider />
           <div
-            id="team"
+            id="team about-us"
             className="flex-1 flex flex-col items-center md:items-center justify-center gap-4 z-[1] p-4 md:p-8"
           >
             <div className="space-y-4 justify-center">
@@ -400,7 +400,7 @@ export default async function Home() {
           <div>
             <CTA />
           </div>
-          <div id="about-us">
+          <div>
             <Footer />
           </div>
         </div>

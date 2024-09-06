@@ -135,7 +135,7 @@ export default async function Home() {
                     </PrimaryButton>
                   </Link>
                   <Link
-                    href="#team"
+                    href="#about-us"
                     className="flex flex-col md:flex-row gap-2"
                   >
                     <SecButton>About Us</SecButton>
