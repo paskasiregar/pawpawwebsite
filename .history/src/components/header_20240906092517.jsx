@@ -10,8 +10,6 @@ export const Header = () => {
       <div className="self-stretch bg-white flex flex-col items-center justify-center text-sm">
         <div className="w-full header-content p-2.5 box-border">
           <Link href="/">
-            {" "}
-            {/* Homepage */}
             <Image
               className="w-36 h-10 object-cover"
               alt="Logo"
@@ -28,7 +26,7 @@ export const Header = () => {
               <Link href="#about-us">About Us</Link>
             </div>
             <div>
-              <Link href="/privacy">Privacy Policy</Link>
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </div>
           </div>
           <div className="header-logo-button">

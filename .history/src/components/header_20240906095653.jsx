@@ -27,9 +27,6 @@ export const Header = () => {
             <div>
               <Link href="#about-us">About Us</Link>
             </div>
-            <div>
-              <Link href="/privacy">Privacy Policy</Link>
-            </div>
           </div>
           <div className="header-logo-button">
             <PrimaryButton href="https://game.pawpawportal.com">

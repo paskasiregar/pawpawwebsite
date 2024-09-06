@@ -8,14 +8,8 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-p,
-ul {
+p li {
   color: gray;
-  margin-bottom: 2px;
-}
-
-section {
-  margin-bottom: 8px;
 }
 
 .hero-bg {

@@ -28,7 +28,7 @@ export const Header = () => {
               <Link href="#about-us">About Us</Link>
             </div>
             <div>
-              <Link href="/privacy">Privacy Policy</Link>
+              <Link href="/privacy">Privacy Policy</Link> {/* Adjusted path */}
             </div>
           </div>
           <div className="header-logo-button">

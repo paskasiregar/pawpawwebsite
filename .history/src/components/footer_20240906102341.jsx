@@ -162,8 +162,8 @@ export const Footer = () => {
             <Link href="/privacy" className="text-gray-400 text-sm">
               Privacy Policy
             </Link>
-            <div className="text-gray-400 text-sm text-right">
-              Made with 💛 by PawPaw Team | © 2024
+            <div className="text-gray-400 text-sm">
+              Made with 💛, PawPaw | © 2024
             </div>
           </section>
         </div>
