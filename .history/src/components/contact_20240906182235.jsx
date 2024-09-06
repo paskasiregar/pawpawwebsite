@@ -10,9 +10,9 @@ export const Contact = () => {
   return (
     <div className="font-plus-jakarta flex flex-col items-center justify-center py-16 px-4 md:px-[200px] gap-[40px] text-29xl">
       <div className="flex justify-start items-start">
-        {/* <svg
-          width="1620"
-          height="188"
+        <svg
+          width="20px"
+          height="auto"
           viewBox="0 0 1620 188"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ export const Contact = () => {
               <stop offset="1" stopColor="#FF2445" />
             </linearGradient>
           </defs>
-        </svg> */}
+        </svg>
       </div>
       <Image
         className="w-36 h-10 object-cover"
