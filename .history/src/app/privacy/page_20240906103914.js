@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "@/components/CTA";
-import { Footer } from "@/components/footer";
+import Footer from "@/components/footer";
 import Link from "next/link";
 
 export default async function Privacy() {
