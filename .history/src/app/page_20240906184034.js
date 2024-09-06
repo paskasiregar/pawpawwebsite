@@ -25,7 +25,7 @@ import aziza from "../assets/aziza.png";
 
 export default async function Home() {
   return (
-    <div className="mt-40 mb-0 w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between">
+    <div className="py-20 w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between">
       <Head>
         <script
           async
