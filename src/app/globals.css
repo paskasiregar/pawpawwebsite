@@ -4,8 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
 body {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 p,
@@ -103,10 +107,15 @@ section {
 }
 
 .header-content {
+  max-width: 1200px;
+  /* You can adjust this depending on your design */
+  margin: 0 auto;
+  padding: 0 20px;
+  /* Add some padding to prevent the content from touching the edges */
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .header-logo-button {
