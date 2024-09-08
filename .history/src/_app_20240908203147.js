@@ -15,6 +15,11 @@ function MyApp({ Component, pageProps }) {
           type="text/javascript"
           src="//pl24310112.cpmrevenuegate.com/cc/a3/1e/cca31e5e9811b252527560f4431eff54.js"
         ></script>
+        <script
+          async
+          type="text/javascript"
+          src="//pl24310112.cpmrevenuegate.com/cc/a3/1e/cca31e5e9811b252527560f4431eff54.js"
+        ></script>
         {/* Global site tag (gtag.js) - Google Analytics */}
         <script
           async
