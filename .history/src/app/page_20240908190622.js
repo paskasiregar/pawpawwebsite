@@ -36,18 +36,14 @@ export default async function Home() {
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-JXSG3Z992D"
         ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-JXSG3Z992D');
-      `,
-          }}
-        />
-      </Head>
+        <script>
+          {window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
 
+          gtag('config', 'G-JXSG3Z992D');}
+        </script>
+      </Head>
       <section className="w-full">
         <div className="centeredcontainer main-container">
           <Header />
