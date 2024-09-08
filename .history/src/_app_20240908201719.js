@@ -7,10 +7,6 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <script
           type="text/javascript"
-          src="https://www.cpmrevenuegate.com/i1djf8hvc?key=f6a951a7de58a7b506667e66a8863e50"
-        ></script>
-        <script
-          type="text/javascript"
           src="//pl24310112.cpmrevenuegate.com/cc/a3/1e/cca31e5e9811b252527560f4431eff54.js"
         ></script>
         <script
