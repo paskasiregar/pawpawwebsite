@@ -27,22 +27,20 @@ export default async function Home() {
   return (
     <div className="mt-40 mb-0 w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between">
       <Head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JXSG3Z992D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JXSG3Z992D');
+</script>
         <script
           async
           src="https://pagead2.googlesyndication.com/paead/js/adsbygoogle.js?client=ca-pub-4770655134097556"
           crossorigin="anonymous"
         ></script>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-JXSG3Z992D"
-        ></script>
-        <script>
-          {`window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-JXSG3Z992D');`}
-        </script>
       </Head>
       <section className="w-full">
         <div className="centeredcontainer main-container">
