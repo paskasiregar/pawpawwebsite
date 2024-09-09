@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <script
-          async
+          defer
           type="text/javascript"
           src="https://www.cpmrevenuegate.com/i1djf8hvc?key=f6a951a7de58a7b506667e66a8863e50"
         ></script>
@@ -17,11 +17,11 @@ function MyApp({ Component, pageProps }) {
 
         {/* Google Analytics */}
         <script
-          async
+          defer
           src="https://www.googletagmanager.com/gtag/js?id=G-JXSG3Z992D"
         ></script>
         <script
-          async
+          defer
           dangerouslySetInnerHTML={{
             __html: `
         window.dataLayer = window.dataLayer || [];
