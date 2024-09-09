@@ -27,7 +27,12 @@ import Script from "next/script";
 export default async function Home() {
   return (
     <div className="mt-40 mb-0 w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between">
-      <Head></Head>
+      <Head>
+        <Script
+          type="text/javascript"
+          src="//pl24310112.cpmrevenuegate.com/cc/a3/1e/cca31e5e9811b252527560f4431eff54.js"
+        ></Script>
+      </Head>
       <Script
         type="text/javascript"
         src="//pl24310112.cpmrevenuegate.com/cc/a3/1e/cca31e5e9811b252527560f4431eff54.js"
