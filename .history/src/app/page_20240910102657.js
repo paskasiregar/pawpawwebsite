@@ -37,6 +37,10 @@ export default async function Home() {
         type="text/javascript"
         src="//inmateimpossibility.com/cc/a3/1e/cca31e5e9811b252527560f4431eff54.js"
       ></Script>
+      <Script
+        type="text/javascript"
+        src="//inmateimpossibility.com/1b/1e/fd/1b1efdc88a8bae732f5e635d316cb0d0.js"
+      ></Script>
 
       {/* Google Tag Manager script */}
       <Script
