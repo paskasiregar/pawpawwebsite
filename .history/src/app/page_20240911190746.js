@@ -13,6 +13,8 @@ import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
 import Team from "@/components/team";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 export default async function Home() {
   return (
@@ -53,6 +55,8 @@ export default async function Home() {
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4770655134097556"
         crossorigin="anonymous"
       ></Script>
+
+      {/* Firebase */}
 
       {/* Consent
       <Script

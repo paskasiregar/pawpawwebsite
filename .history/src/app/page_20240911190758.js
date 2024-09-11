@@ -13,6 +13,8 @@ import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
 import Team from "@/components/team";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 export default async function Home() {
   return (
@@ -54,6 +56,16 @@ export default async function Home() {
         crossorigin="anonymous"
       ></Script>
 
+      {/* Firebase */}
+const firebaseConfig = {
+  apiKey: "AIzaSyBBxIRdERnLfE9Ht2ac-ksgD0wVaDDyYnk",
+  authDomain: "pawpaw-portal.firebaseapp.com",
+  projectId: "pawpaw-portal",
+  storageBucket: "pawpaw-portal.appspot.com",
+  messagingSenderId: "760984402240",
+  appId: "1:760984402240:web:3e6435f0b4e5e97144e2a5",
+  measurementId: "G-0BBT7WM9YC"
+};
       {/* Consent
       <Script
         id="usercentrics-cmp"

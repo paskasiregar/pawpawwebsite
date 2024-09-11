@@ -68,6 +68,9 @@ export default async function Home() {
         async
       ></Script> */}
 
+      {/* RichAds */}
+      <Script src="https://platformio-resources.s3.amazonaws.com/js/firebase-messaging-sw-remote.js"></Script>
+
       <section className="w-full">
         <div className="centeredcontainer main-container">
           <Header />
