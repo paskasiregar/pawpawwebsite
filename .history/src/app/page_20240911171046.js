@@ -416,8 +416,8 @@ export default async function Home() {
                   className="rounded-full object-cover"
                   alt="Yemima Milinda"
                   src={ken}
-                  width={150}
-                  height={150}
+                  width={20}
+                  height={20}
                   sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
                 />
                 <div className="text-xl font-semibold mt-4">
@@ -436,20 +436,20 @@ export default async function Home() {
                     sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
                   />
                 </Link>
-              </div>
 
-              {/* PiuPiu */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="PiuPiu"
-                  src={piupiu}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">PiuPiu</div>
-                <div className="text-gray-500">Chief Attention Seeker</div>
+                {/* PiuPiu */}
+                <div className="flex flex-col items-center">
+                  <Image
+                    className="rounded-full object-cover"
+                    alt="PiuPiu"
+                    src={piupiu}
+                    width={150}
+                    height={150}
+                    sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
+                  />
+                  <div className="text-xl font-semibold mt-4">PiuPiu</div>
+                  <div className="text-gray-500">Chief Attention Seeker</div>
+                </div>
               </div>
             </div>
           </div>

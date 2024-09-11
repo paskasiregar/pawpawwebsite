@@ -437,20 +437,6 @@ export default async function Home() {
                   />
                 </Link>
               </div>
-
-              {/* PiuPiu */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="PiuPiu"
-                  src={piupiu}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">PiuPiu</div>
-                <div className="text-gray-500">Chief Attention Seeker</div>
-              </div>
             </div>
           </div>
 

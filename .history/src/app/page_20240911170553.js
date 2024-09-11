@@ -197,133 +197,63 @@ export default async function Home() {
             id="team"
             className="flex-1 flex flex-col items-center md:items-center justify-center gap-4 z-[1] p-4 md:p-8"
           >
-            <div className="flex flex-col items-center md:items-center mb-8">
-              <div className="relative font-extrabold text-2xl md:text-4xl text-center md:text-center mb-8">
-                Who are behind PawPaw Portal?
-              </div>
-            </div>
+            <div className="space-y-4 justify-center">
+              <div className="flex justify-center md:justify-center"></div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8 justify-center">
-              {/* Paska */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="Paska"
-                  src={paska}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">Paska</div>
-                <div className="text-gray-500">Founder</div>
-                <div className="flex gap-2">
-                  <Link href="https://www.linkedin.com/in/pas-ka" passHref>
-                    <Image
-                      src={linkedin}
-                      alt="LinkedIn"
-                      width={20}
-                      height={20}
-                      sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
-                    />
-                  </Link>
-                  <Link href="https://www.hellopaska.com" passHref>
-                    <Image
-                      src={website}
-                      alt="Website"
-                      width={20}
-                      height={20}
-                      sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
-                    />
-                  </Link>
+              <div className="flex flex-col items-center md:items-center mb-8">
+                <div className="relative font-extrabold text-2xl md:text-4xl text-center md:text-center mb-8">
+                  Who are behind PawPaw Portal?
                 </div>
               </div>
 
-              {/* iamkun */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="@iamkun"
-                  src={kun}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">@iamkun</div>
-                <div className="text-gray-500">Godsent Coding Ninja</div>
-                <Link href="https://github.com/iamkun" passHref>
+              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8 justify-center">
+                {/* Paska */}
+                <div className="flex flex-col items-center">
                   <Image
-                    src={github}
-                    alt="GitHub"
-                    width={20}
-                    height={20}
-                    sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                    className="rounded-full object-cover"
+                    alt="Paska"
+                    src={paska}
+                    width={150}
+                    height={150}
+                    sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
                   />
-                </Link>
-              </div>
-
-              {/* Kak Yus */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="Yus Marcelina"
-                  src={yus}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">Yus Marcelina</div>
-                <div className="text-gray-500">Product Lead</div>
-                <div className="flex gap-2">
-                  <Link
-                    href="https://www.linkedin.com/in/yusmarcelina/"
-                    passHref
-                  >
-                    <Image
-                      src={linkedin}
-                      alt="LinkedIn"
-                      width={20}
-                      height={20}
-                      sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
-                    />
-                  </Link>
-                  <Link
-                    href="https://yusmarcelina.wixsite.com/yusmarcelina"
-                    passHref
-                  >
-                    <Image
-                      src={website}
-                      alt="Website"
-                      width={20}
-                      height={20}
-                      sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
-                    />
-                  </Link>
+                  <div className="text-xl font-semibold mt-4">Paska</div>
+                  <div className="text-gray-500">Founder</div>
+                  <div className="flex gap-2">
+                    <Link href="https://www.linkedin.com/in/pas-ka" passHref>
+                      <Image
+                        src={linkedin}
+                        alt="LinkedIn"
+                        width={20}
+                        height={20}
+                        sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                      />
+                    </Link>
+                    <Link href="https://www.hellopaska.com" passHref>
+                      <Image
+                        src={website}
+                        alt="Website"
+                        width={20}
+                        height={20}
+                        sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                      />
+                    </Link>
+                  </div>
                 </div>
-              </div>
 
-              {/* Mas Iqbal */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="Moch Iqbal"
-                  src={iqbal}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">Mochamad Iqbal</div>
-                <div className="text-gray-500">Tech Lead</div>
-                <div className="flex gap-2">
-                  <Link href="https://www.linkedin.com/in/mochadwi/" passHref>
-                    <Image
-                      src={linkedin}
-                      alt="LinkedIn"
-                      width={20}
-                      height={20}
-                      sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
-                    />
-                  </Link>
-                  <Link href="https://github.com/mochadwi" passHref>
+                {/* iamkun */}
+                <div className="flex flex-col items-center">
+                  <Image
+                    className="rounded-full object-cover"
+                    alt="@iamkun"
+                    src={kun}
+                    width={150}
+                    height={150}
+                    sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
+                  />
+                  <div className="text-xl font-semibold mt-4">@iamkun</div>
+                  <div className="text-gray-500">Godsent Coding Ninja</div>
+                  <Link href="https://github.com/iamkun" passHref>
                     <Image
                       src={github}
                       alt="GitHub"
@@ -333,123 +263,194 @@ export default async function Home() {
                     />
                   </Link>
                 </div>
-              </div>
 
-              {/* Julie */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="Yeni Yuliati"
-                  src={julie}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">Yeni Yuliati</div>
-                <div className="text-gray-500">Founder&apos;s Office</div>
-                <Link href="https://www.linkedin.com/in/yeniyuliati/" passHref>
+                {/* Kak Yus */}
+                <div className="flex flex-col items-center">
                   <Image
-                    src={linkedin}
-                    alt="LinkedIn"
-                    width={20}
-                    height={20}
-                    sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                    className="rounded-full object-cover"
+                    alt="Yus Marcelina"
+                    src={yus}
+                    width={150}
+                    height={150}
+                    sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
                   />
-                </Link>
-              </div>
-
-              {/* Aziza */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="Aziza Putri"
-                  src={aziza}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">Aziza Putri</div>
-                <div className="text-gray-500">Designer</div>
-                <Link
-                  href="https://www.linkedin.com/in/aziza-wienneta/"
-                  passHref
-                >
-                  <Image
-                    src={linkedin}
-                    alt="LinkedIn"
-                    width={20}
-                    height={20}
-                    sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
-                  />
-                </Link>
-              </div>
-
-              {/* Yemima */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="Yemima Milinda"
-                  src={yemima}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">Yemima Milinda</div>
-                <div className="text-gray-500">Designer</div>
-                <Link
-                  href="https://www.linkedin.com/in/yemimamillinda/"
-                  passHref
-                >
-                  <Image
-                    src={linkedin}
-                    alt="LinkedIn"
-                    width={20}
-                    height={20}
-                    sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
-                  />
-                </Link>
-              </div>
-
-              {/* Askenas */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="Yemima Milinda"
-                  src={ken}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">
-                  Askenas Salinding
+                  <div className="text-xl font-semibold mt-4">
+                    Yus Marcelina
+                  </div>
+                  <div className="text-gray-500">Product Lead</div>
+                  <div className="flex gap-2">
+                    <Link
+                      href="https://www.linkedin.com/in/yusmarcelina/"
+                      passHref
+                    >
+                      <Image
+                        src={linkedin}
+                        alt="LinkedIn"
+                        width={20}
+                        height={20}
+                        sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                      />
+                    </Link>
+                    <Link
+                      href="https://yusmarcelina.wixsite.com/yusmarcelina"
+                      passHref
+                    >
+                      <Image
+                        src={website}
+                        alt="Website"
+                        width={20}
+                        height={20}
+                        sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                      />
+                    </Link>
+                  </div>
                 </div>
-                <div className="text-gray-500">Content Creator</div>
-                <Link
-                  href="https://www.linkedin.com/in/askenassalinding/"
-                  passHref
-                >
-                  <Image
-                    src={linkedin}
-                    alt="LinkedIn"
-                    width={20}
-                    height={20}
-                    sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
-                  />
-                </Link>
-              </div>
 
-              {/* PiuPiu */}
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full object-cover"
-                  alt="PiuPiu"
-                  src={piupiu}
-                  width={150}
-                  height={150}
-                  sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                />
-                <div className="text-xl font-semibold mt-4">PiuPiu</div>
-                <div className="text-gray-500">Chief Attention Seeker</div>
+                {/* Mas Iqbal */}
+                <div className="flex flex-col items-center">
+                  <Image
+                    className="rounded-full object-cover"
+                    alt="Moch Iqbal"
+                    src={iqbal}
+                    width={150}
+                    height={150}
+                    sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
+                  />
+                  <div className="text-xl font-semibold mt-4">
+                    Mochamad Iqbal
+                  </div>
+                  <div className="text-gray-500">Tech Lead</div>
+                  <div className="flex gap-2">
+                    <Link href="https://www.linkedin.com/in/mochadwi/" passHref>
+                      <Image
+                        src={linkedin}
+                        alt="LinkedIn"
+                        width={20}
+                        height={20}
+                        sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                      />
+                    </Link>
+                    <Link href="https://github.com/mochadwi" passHref>
+                      <Image
+                        src={github}
+                        alt="GitHub"
+                        width={20}
+                        height={20}
+                        sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                      />
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Julie */}
+                <div className="flex flex-col items-center">
+                  <Image
+                    className="rounded-full object-cover"
+                    alt="Yeni Yuliati"
+                    src={julie}
+                    width={150}
+                    height={150}
+                    sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
+                  />
+                  <div className="text-xl font-semibold mt-4">Yeni Yuliati</div>
+                  <div className="text-gray-500">Founder&apos;s Office</div>
+                  <Link
+                    href="https://www.linkedin.com/in/yeniyuliati/"
+                    passHref
+                  >
+                    <Image
+                      src={linkedin}
+                      alt="LinkedIn"
+                      width={20}
+                      height={20}
+                      sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                    />
+                  </Link>
+                </div>
+
+                {/* Aziza */}
+                <div className="flex flex-col items-center">
+                  <Image
+                    className="rounded-full object-cover"
+                    alt="Aziza Putri"
+                    src={aziza}
+                    width={150}
+                    height={150}
+                    sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
+                  />
+                  <div className="text-xl font-semibold mt-4">Aziza Putri</div>
+                  <div className="text-gray-500">Designer</div>
+                  <Link
+                    href="https://www.linkedin.com/in/aziza-wienneta/"
+                    passHref
+                  >
+                    <Image
+                      src={linkedin}
+                      alt="LinkedIn"
+                      width={20}
+                      height={20}
+                      sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                    />
+                  </Link>
+                </div>
+
+                {/* Yemima */}
+                <div className="flex flex-col items-center">
+                  <Image
+                    className="rounded-full object-cover"
+                    alt="Yemima Milinda"
+                    src={yemima}
+                    width={150}
+                    height={150}
+                    sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
+                  />
+                  <div className="text-xl font-semibold mt-4">
+                    Yemima Milinda
+                  </div>
+                  <div className="text-gray-500">Designer</div>
+                  <Link
+                    href="https://www.linkedin.com/in/yemimamillinda/"
+                    passHref
+                  >
+                    <Image
+                      src={linkedin}
+                      alt="LinkedIn"
+                      width={20}
+                      height={20}
+                      sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                    />
+                  </Link>
+                </div>
+
+                {/* Askenas */}
+                <div className="flex flex-col items-center">
+                  <Image
+                    className="rounded-full object-cover"
+                    alt="Askenas"
+                    src={ken}
+                    width={150}
+                    height={150}
+                    sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
+                  />
+                  <div className="text-xl font-semibold mt-4">
+                    Askenas Salinding
+                  </div>
+                  <div className="text-gray-500">Content Creator</div>
+                </div>
+
+                {/* PiuPiu */}
+                <div className="flex flex-col items-center">
+                  <Image
+                    className="rounded-full object-cover"
+                    alt="PiuPiu"
+                    src={piupiu}
+                    width={150}
+                    height={150}
+                    sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
+                  />
+                  <div className="text-xl font-semibold mt-4">PiuPiu</div>
+                  <div className="text-gray-500">Chief Attention Seeker</div>
+                </div>
               </div>
             </div>
           </div>

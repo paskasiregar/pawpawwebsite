@@ -438,18 +438,32 @@ export default async function Home() {
                 </Link>
               </div>
 
-              {/* PiuPiu */}
+              {/* Askenas */}
               <div className="flex flex-col items-center">
                 <Image
                   className="rounded-full object-cover"
-                  alt="PiuPiu"
-                  src={piupiu}
+                  alt="Yemima Milinda"
+                  src={ken}
                   width={150}
                   height={150}
                   sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
                 />
-                <div className="text-xl font-semibold mt-4">PiuPiu</div>
-                <div className="text-gray-500">Chief Attention Seeker</div>
+                <div className="text-xl font-semibold mt-4">
+                  Askenas Salinding
+                </div>
+                <div className="text-gray-500">Content Creator</div>
+                <Link
+                  href="https://www.linkedin.com/in/askenassalinding/"
+                  passHref
+                >
+                  <Image
+                    src={linkedin}
+                    alt="LinkedIn"
+                    width={20}
+                    height={20}
+                    sizes="(max-width: 768px) 24px, (max-width: 1200px) 24px"
+                  />
+                </Link>
               </div>
             </div>
           </div>
