@@ -64,7 +64,7 @@ const teamMembers = [
   },
   {
     name: "PiuPiu",
-    role: "Chief Mischievous",
+    role: "Chief Mouser",
     imageSrc: piupiu,
   },
 ];
