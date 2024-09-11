@@ -17,6 +17,7 @@ const teamMembers = [
     imageSrc: paska,
     linkedinUrl: "https://www.linkedin.com/in/pas-ka",
     websiteUrl: "https://www.hellopaska.com",
+    githubUrl: "https://github.com/iamkun",
   },
   {
     name: "@iamkun",
@@ -89,7 +90,6 @@ const Team = () => {
             role={member.role}
             imageSrc={member.imageSrc}
             linkedinUrl={member.linkedinUrl}
-            githubUrl={member.githubUrl}
             websiteUrl={member.websiteUrl}
           />
         ))}

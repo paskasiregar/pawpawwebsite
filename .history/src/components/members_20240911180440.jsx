@@ -7,17 +7,17 @@ import linkedin from "../assets/linkedin.webp";
 import github from "../assets/github.png";
 import website from "../assets/website.png";
 
-// const Member = ({ name, role, imageSrc, linkedinUrl, githubUrl, websiteUrl }) => {
-//   console.log("GitHub URL: ", githubUrl);
-//   console.log("LinkedIn URL: ", linkedinUrl);
-//   console.log("Website URL: ", websiteUrl);
+const Member = ({ name, role, imageSrc, linkedinUrl, githubUrl, websiteUrl }) => {
+  // console.log("GitHub URL: ", githubUrl);
+  // console.log("LinkedIn URL: ", linkedinUrl);
+  // console.log("Website URL: ", websiteUrl);
 
 const Member = ({
   name,
   role,
   imageSrc,
   linkedinUrl,
-  githubUrl,
+  GitHubUrl,
   websiteUrl,
 }) => {
   return (
@@ -40,7 +40,7 @@ const Member = ({
         )}
         {githubUrl && (
           <Link href={githubUrl} passHref>
-            <Image src={github} alt="GitHub" width={20} height={20} />
+            <Image src={github} width={20} height={20} />
           </Link>
         )}
         {websiteUrl && (

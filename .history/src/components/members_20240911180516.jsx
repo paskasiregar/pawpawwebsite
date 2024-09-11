@@ -17,7 +17,7 @@ const Member = ({
   role,
   imageSrc,
   linkedinUrl,
-  githubUrl,
+  GitHubUrl,
   websiteUrl,
 }) => {
   return (
@@ -38,9 +38,9 @@ const Member = ({
             <Image src={linkedin} alt="LinkedIn" width={20} height={20} />
           </Link>
         )}
-        {githubUrl && (
-          <Link href={githubUrl} passHref>
-            <Image src={github} alt="GitHub" width={20} height={20} />
+        {GitHubUrl && (
+          <Link href={GitHubUrl} passHref>
+            <Image src={github} width={20} height={20} />
           </Link>
         )}
         {websiteUrl && (

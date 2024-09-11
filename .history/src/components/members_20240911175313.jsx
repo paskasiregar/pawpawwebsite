@@ -1,16 +1,9 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import linkedin from "../assets/linkedin.webp";
 import github from "../assets/github.png";
 import website from "../assets/website.png";
-
-// const Member = ({ name, role, imageSrc, linkedinUrl, githubUrl, websiteUrl }) => {
-//   console.log("GitHub URL: ", githubUrl);
-//   console.log("LinkedIn URL: ", linkedinUrl);
-//   console.log("Website URL: ", websiteUrl);
 
 const Member = ({
   name,
@@ -36,11 +29,6 @@ const Member = ({
         {linkedinUrl && (
           <Link href={linkedinUrl} passHref>
             <Image src={linkedin} alt="LinkedIn" width={20} height={20} />
-          </Link>
-        )}
-        {githubUrl && (
-          <Link href={githubUrl} passHref>
-            <Image src={github} alt="GitHub" width={20} height={20} />
           </Link>
         )}
         {websiteUrl && (

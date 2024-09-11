@@ -89,7 +89,6 @@ const Team = () => {
             role={member.role}
             imageSrc={member.imageSrc}
             linkedinUrl={member.linkedinUrl}
-            githubUrl={member.githubUrl}
             websiteUrl={member.websiteUrl}
           />
         ))}

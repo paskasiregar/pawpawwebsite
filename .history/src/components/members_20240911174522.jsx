@@ -1,16 +1,9 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import linkedin from "../assets/linkedin.webp";
 import github from "../assets/github.png";
 import website from "../assets/website.png";
-
-// const Member = ({ name, role, imageSrc, linkedinUrl, githubUrl, websiteUrl }) => {
-//   console.log("GitHub URL: ", githubUrl);
-//   console.log("LinkedIn URL: ", linkedinUrl);
-//   console.log("Website URL: ", websiteUrl);
 
 const Member = ({
   name,

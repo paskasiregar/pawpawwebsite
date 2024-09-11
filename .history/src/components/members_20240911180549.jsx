@@ -40,7 +40,7 @@ const Member = ({
         )}
         {githubUrl && (
           <Link href={githubUrl} passHref>
-            <Image src={github} alt="GitHub" width={20} height={20} />
+            <Image src={github} width={20} height={20} />
           </Link>
         )}
         {websiteUrl && (

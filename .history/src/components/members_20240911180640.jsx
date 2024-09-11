@@ -35,12 +35,18 @@ const Member = ({
       <div className="flex gap-2">
         {linkedinUrl && (
           <Link href={linkedinUrl} passHref>
-            <Image src={linkedin} alt="LinkedIn" width={20} height={20} />
+            <Image
+              src={linkedin}
+              alt="LinkedIn"
+              alt="GitHub"
+              width={20}
+              height={20}
+            />
           </Link>
         )}
         {githubUrl && (
           <Link href={githubUrl} passHref>
-            <Image src={github} alt="GitHub" width={20} height={20} />
+            <Image src={github} width={20} height={20} />
           </Link>
         )}
         {websiteUrl && (

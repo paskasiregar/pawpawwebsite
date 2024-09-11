@@ -22,7 +22,7 @@ const teamMembers = [
     name: "@iamkun",
     role: "Godsent Coding Ninja",
     imageSrc: kun,
-    githubUrl: "https://github.com/iamkun",
+    GitHubUrl: "https://github.com/iamkun",
   },
   {
     name: "Yus Marcelina",
@@ -89,7 +89,6 @@ const Team = () => {
             role={member.role}
             imageSrc={member.imageSrc}
             linkedinUrl={member.linkedinUrl}
-            githubUrl={member.githubUrl}
             websiteUrl={member.websiteUrl}
           />
         ))}
