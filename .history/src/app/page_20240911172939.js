@@ -11,7 +11,19 @@ import bannerImage from "../assets/banner.png";
 import logoHeaderImage from "../assets/banner-10.png";
 import Link from "next/link";
 import Head from "next/head";
+import linkedin from "../assets/linkedin.webp";
+import github from "../assets/github.png";
+import website from "../assets/website.png";
+import piupiu from "../assets/piupiu.png";
+import paska from "../assets/paska.png";
+import iqbal from "../assets/iqbal.png";
+import kun from "../assets/kun.png";
+import julie from "../assets/julie.png";
+import yus from "../assets/yus.png";
+import yemima from "../assets/yemima.png";
+import aziza from "../assets/aziza.png";
 import Script from "next/script";
+import ken from "../assets/ken.png";
 import Team from "@/components/team";
 
 export default async function Home() {
