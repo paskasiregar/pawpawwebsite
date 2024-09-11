@@ -6,7 +6,7 @@ import logoHeaderImage from "../assets/banner-10.png";
 
 export const Header = () => {
   return (
-    <div className="w-full bg-white fixed top-0 shadow-sm z-10">
+    <div className="w-full bg-white fixed top-0 shadow-sm">
       <div className="bg-white max-w-7xl flex justify-between items-center p-4">
         <div className="flex items-center space-x-4">
           <Link href="/">

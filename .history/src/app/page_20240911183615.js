@@ -89,9 +89,9 @@ export default async function Home() {
             </div>
 
             {/* How it works */}
-            <div
+            <div></div><div
               id="how-it-works"
-              className="flex-1 flex flex-col items-center md:items-start justify-center gap-4 p-4 md:p-8"
+              className="flex-1 flex flex-col items-center md:items-start justify-center gap-4 z-[1] p-4 md:p-8"
             >
               <div className="space-y-4">
                 <div className="flex justify-center md:justify-start">
@@ -177,6 +177,7 @@ export default async function Home() {
                   </Link>
                 </div>
               </div>
+            </div>
             </div>
           </div>
           <Team />
