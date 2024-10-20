@@ -1,5 +1,5 @@
 import React from "react";
-import ShelterCard from "./shelterCard";
+import shelterCard from "./ShelterCard";
 import pejaten from "@/assets/pejaten.jpg";
 
 const shelterData = [
