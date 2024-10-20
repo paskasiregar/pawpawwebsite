@@ -181,7 +181,7 @@ export default async function Home() {
             </div>
           </div>
           <Divider />
-          <ShelterCards />
+
           <Divider />
           <Team />
           <Divider />
