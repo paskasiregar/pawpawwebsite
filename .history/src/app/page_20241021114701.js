@@ -162,10 +162,10 @@ export default async function Home() {
                   </div>
                 </div>
                 <div className="flex flex-col md:flex-row gap-2">
-                  <Link href="https://forms.office.com/r/eZ7tgMrwyc">
+                  <Link href="https://game.pawpawportal.com">
                     <PrimaryButton
                       className="w-full"
-                      href="https://forms.office.com/r/eZ7tgMrwyc"
+                      href="https://game.pawpawportal.com"
                     >
                       Be our shelter partner
                     </PrimaryButton>
