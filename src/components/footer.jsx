@@ -163,7 +163,7 @@ export const Footer = () => {
               Privacy Policy
             </Link>
             <div className="text-gray-400 text-sm text-right">
-              Made with 💛 by PawPaw Team | © 2024
+              Made with 💛 by PawPaw Team | © 2024 | hi@pawpawportal.xyz
             </div>
           </section>
         </div>
