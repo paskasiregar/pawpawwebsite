@@ -5,7 +5,9 @@ import Script from "next/script";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head></Head>
+      <Head>
+        <meta name="clckd" content="75dc524e2732cc4c467a23fcc67502c5" />
+      </Head>
 
       {/* CPM Revenue script */}
       {/* <Script

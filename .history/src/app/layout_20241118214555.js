@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <meta name="clckd" content="75dc524e2732cc4c467a23fcc67502c5" />
         {/* <meta
           name="google-adsense-account"
           content="ca-pub-4770655134097556"

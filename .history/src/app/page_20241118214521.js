@@ -35,7 +35,7 @@ export default async function Home() {
         src="https://www.googletagmanager.com/gtag/js?id=G-JXSG3Z992D"
       ></Script> */}
 
-      {/* Inline GTM script
+      {/* Inline GTM script */}
       <Script
         id="google-analytics"
         dangerouslySetInnerHTML={{
@@ -46,7 +46,7 @@ export default async function Home() {
             gtag('config', 'G-JXSG3Z992D');
           `,
         }}
-      /> */}
+      />
 
       {/* Google Adsense
       <Script
