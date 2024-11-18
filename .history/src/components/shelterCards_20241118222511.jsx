@@ -1,7 +1,6 @@
 import React from "react";
 import ShelterCard from "./shelterCard";
 import pejaten from "@/assets/pejaten.jpg";
-import dogsneedlove from "@/assets/dogsneedlove.png";
 
 const shelterData = [
   {

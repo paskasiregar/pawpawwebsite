@@ -1,7 +1,6 @@
 import React from "react";
 import ShelterCard from "./shelterCard";
 import pejaten from "@/assets/pejaten.jpg";
-import dogsneedlove from "@/assets/dogsneedlove.png";
 
 const shelterData = [
   {
@@ -15,11 +14,12 @@ const shelterData = [
   },
   {
     id: 2,
-    imageSrc: dogsneedlove,
+    imageSrc: pejaten,
     name: "Sayangi Hewan Peliharaan",
-    type: "DOG",
-    location: "Daerah Khusus Ibukota Jakarta",
-    instagramUrl: "https://www.instagram.com/dogs.needlove/",
+    type: "CAT & DOG",
+    location:
+      "Jl. Pejaten Barat Raya No.45w, RT.1/RW.10, Pejaten Bar., Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12540",
+    instagramUrl: "https://www.instagram.com/pejatenshelter/",
   },
 ];
 
