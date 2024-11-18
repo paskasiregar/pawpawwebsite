@@ -20,11 +20,6 @@ export default async function Home() {
     <div className="mt-40 mb-0 w-full font-plus-jakarta m-auto flex min-h-screen flex-col items-center justify-between">
       <Head>
         <meta name="clckd" content="544541ede95458fc03a27ec7255445c5" />
-        {/* Hilltop Ads */}
-        <meta
-          name="448bfa58144e374d75be345a1be4d6e7fe0f0c0c"
-          content="448bfa58144e374d75be345a1be4d6e7fe0f0c0c"
-        />
 
         {/* Hilltop Ads */}
         <meta
